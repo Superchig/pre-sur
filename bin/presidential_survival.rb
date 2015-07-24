@@ -8,7 +8,8 @@ $PRESIDENTS = [
   Person.new("George Washington", 1732, 1799),
   Person.new("John Adams", 1735, 1826),
   Person.new("Thomas Jefferson", 1743, 1826),
-  Person.new("James Madison", 1751 ,1836), Person.new("James Monroe", 1758, 1831),
+  Person.new("James Madison", 1751 ,1836),
+  Person.new("James Monroe", 1758, 1831),
   Person.new("John Quincy Adams", 1767, 1848),
   Person.new("Andrew Jackson", 1767 ,1845),
   Person.new("Martin Van Buren", 1782, 1862),
@@ -26,6 +27,7 @@ $PRESIDENTS = [
   Person.new("James A. Garfield", 1831, 1881),
   Person.new("Chester A. Arthur", 1829, 1886),
   Person.new("Grover Cleveland", 1837, 1908),
+  Person.new("Benamin Harrison", 1833, 1901),
   Person.new("William McKinley", 1843, 1901),
   Person.new("Theodore Roosevelt", 1858, 1919),
   Person.new("William Howard Taft", 1857, 1930),
@@ -142,7 +144,7 @@ Would you like to know about:
 1. The number of U.S. presidents that were alive in a year.
 2. The names of the U.S. presidents alive in a year.
 3. The names, years of birth, and years of death of the presidents alive in a year.
-4. See the largest year.
+4. See a list of years of the U.S. presidency.
 q. Quit.
 EOT
 
